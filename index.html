@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basquete</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- cabeçalho / título com efeito typewriter -->
+    <header>
+        <h1 class="typewriter">O que é o Basquete?</h1>
+    </header>
+
+    <!-- área principal -->
+    <main class="title">
+        <p>
+            Basquete é um esporte coletivo jogado entre duas equipes de cinco jogadores.
+            O objetivo é marcar pontos arremessando a bola dentro da cesta do adversário.
+        </p>
+
+        <h2>🏀 Como funciona:</h2>
+        <p>
+            O jogo é dividido em períodos. Os jogadores avançam quicando a bola (drible) ou passando para um colega.
+        </p>
+
+        <h2>🎯 Como fazer pontos:</h2>
+        <p>
+            • 1 ponto — Lance livre<br>
+            • 2 pontos — Arremesso dentro da linha de três<br>
+            • 3 pontos — Arremesso atrás da linha de três
+        </p>
+
+        <!-- botão para mostrar/ocultar mais conteúdo -->
+        <button id="btnShow">Mostrar mais</button>
+
+        <!-- conteúdo oculto (história, timeline, estatísticas, cards, carrossel, quiz) -->
+        <section id="extraContent" class="hidden">
+
+            <!-- História / Linha do tempo -->
+            <h2>📜 História do basquete</h2>
+            <p>
+                O basquete foi criado em 1891 por James Naismith. Começou com cestas de pêssego e uma bola de futebol.
+            </p>
+
+            <div class="timeline">
+                <div class="tl-item">1891 — Criação do basquete por James Naismith</div>
+                <div class="tl-item">1936 — Basquete entra nas Olimpíadas</div>
+                <div class="tl-item">1946 — Fundação da NBA</div>
+                <div class="tl-item">1979 — Introdução da linha de 3 pontos</div>
+                <div class="tl-item">1998 — Último título de Jordan pelo Bulls</div>
+            </div>
+
+            <!-- Estatísticas animadas (JS usa .number[data-target]) -->
+
+                </div>
+            </div>
+
+            
+            <h2> Curiosidades</h2>
+            <div class="curiosidades">
+                <div class="cur-card">
+                    <h3> A primeira cesta</h3>
+                    <p>Usavam cestos de pêssego como aro.</p>
+                </div>
+                <div class="cur-card">
+                    <h3> Cor da bola</h3>
+                    <p>A bola já foi marrom antes de ficar laranja.</p>
+                </div>
+                <div class="cur-card">
+                    <h3> Recorde</h3>
+                    <p>Wilt Chamberlain marcou 100 pontos em um único jogo.</p>
+                </div>
+            </div>
+
+            <!-- Cards de jogadores -->
+            <h2>⭐ Jogadores famosos</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="img/Michael Jordan.jpg" alt="Michael Jordan">
+                    <h3>Michael Jordan</h3>
+                    <p>Considerado um dos maiores jogadores da história.</p>
+                </article>
+
+                <article class="card">
+                    <img src="img/Kobe Bryant.jpg" alt="Kobe Bryant">
+                    <h3>Kobe Bryant</h3>
+                    <p>Lenda dos Lakers — 5x campeão da NBA.</p>
+                </article>
+
+                <article class="card">
+                    <img src="img/Lebron James.jpg" alt="LeBron James">
+                    <h3>LeBron James</h3>
+                    <p>Um dos jogadores mais dominantes da sua geração.</p>
+                </article>
+            </div>
+
+            <!-- Carrossel de imagens -->
+            <h2>📷 Galeria</h2>
+            <div class="carousel">
+                <div class="carousel-track">
+                    <img src="img/jordam.jpg" alt="foto 1">
+                    <img src="img/Ja morant.jpg" alt="foto 2">
+                    <img src="img/kobe.jpg" alt="foto 3">
+                    <img src="img/transferir (2).jpg" alt="foto 4">
+                    <img src="img/transferir (3).jpg" alt="foto 5">
+                    <img src="img/Steph Curry pfp.jpg" alt="foto 6">
+                </div>
+            </div>
+
+            <!-- Quiz simples -->
+
+
+            <div id="quizResult"></div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        © 2025 • Projeto desenvolvido por Neemias | Todos os direitos reservados.
+    </footer>
+
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
